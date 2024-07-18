@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+.todo-wrap {
+  width: 60%;
+  height: 90%;
+  text-align: center;
+}
+.todo-title {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main {
+  background-color: black;
+  height: 75%;
+}
+.todo-form {
+  height: 10%;
+}
+.todo-list {
+  height: 90%;
+  list-style: none;
+  overflow-y: scroll;
+  padding-right: 40px;
+}
+.todo-list-item {
+  background-color: red;
+  margin-top: 5px;
+  height: 10%;
+  display: flex;
+}
+.todo-list-item-title {
+  background-color: aqua;
+  width: 90%;
+}
+.alter-button {
+  width: 15%;
+}
+.del-button {
+  width: 15%;
+}
+.text-button {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  /* 수평 중앙 정렬하기 */
+  margin: 0 auto;
+}
+.asign {
+  margin-left: 15px;
+  width: 80px;
+}
+
+.text-data {
+  margin-right: 30px;
+}
