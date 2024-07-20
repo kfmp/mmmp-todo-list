@@ -16,13 +16,14 @@
   text-align: center;
 }
 .todo-title {
+  background-color:bisque;
   font-size: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .main {
-  background-color: black;
+  background-color:bisque;
   height: 75%;
 }
 .todo-form {
@@ -35,13 +36,11 @@
   padding-right: 40px;
 }
 .todo-list-item {
-  background-color: red;
   margin-top: 5px;
   height: 10%;
   display: flex;
 }
 .todo-list-item-title {
-  background-color: aqua;
   width: 90%;
 }
 .alter-button {
@@ -51,6 +50,7 @@
   width: 15%;
 }
 .text-button {
+  
   display: flex;
   width: 50px;
   height: 50px;
@@ -58,10 +58,43 @@
   margin: 0 auto;
 }
 .asign {
-  margin-left: 15px;
-  width: 80px;
+  background-color:#333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top : 10px;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
 }
 
 .text-data {
   margin-right: 30px;
+  border: none;
+  padding: 15px 30px;
+  color: #333;
+  font-weight: bold;
+}
+
+.alter-button,
+.del-button {
+  background-color: #eef;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  border: none;
+  border-radius: 40%;
+}
+
+.todo-list-item-title {
+  padding: 5px 10px;
+  color: #333;
+  font-weight: bold;
+  background-color: #eef;
 }
